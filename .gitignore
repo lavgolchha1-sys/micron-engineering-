@@ -15,17 +15,30 @@ desktop.ini
 # Vercel
 .vercel/
 
-# Node (if you add tooling later)
+# Next.js
+/.next/
+/out/
+next-env.d.ts.bak
+
+# Node
 node_modules/
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env
 .env
 .env.local
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
 
 # Build artifacts
 dist/
 build/
 
-# Project-specific — design reference artifacts (not for production)
+# Project-specific
 .template_*
 *.bak
