@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact &amp; RFQ | Micron Engineering Industries</title>
+  <meta name="description" content="Request a quote, send a drawing, or visit our Kolkata factory. Most quotes returned within 24 hours." />
+  <meta name="theme-color" content="#F4F1EA" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>Micron Engineering</strong>
+        <small>PRECISION CUTTING TOOLS · EST. 1985</small>
+      </span>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="industries.html">Industries</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="tel:+919830566659" class="nav-phone">+91 98305 66659</a>
+      <a href="#rfq" class="btn btn--primary">Request a Quote <span class="arr">→</span></a>
+      <button class="nav-toggle" aria-label="Open menu" id="navToggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- =================== PAGE HEAD =================== -->
+<section class="page-head">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">/</span>
+      <span class="here">Contact</span>
+    </div>
+    <div class="ph-num">§ RFQ · DRAWING-BASED SUPPLY</div>
+    <span class="eyebrow">Drawing in · quote out</span>
+    <h1>Send a drawing. Get a quote.</h1>
+    <p class="lede">Most standard quotes go out within 24 hours. For custom or to-print work, expect a response within two working days — usually faster. We work to PDF, DWG, STEP, or a worn tool in hand.</p>
+    <div class="ph-meta">
+      <span>Standard Quote<b>&lt; 24 HRS</b></span>
+      <span>Lead Time<b>3–10 D</b></span>
+      <span>MOQ Standard<b>1 PC</b></span>
+      <span>MOQ Custom<b>10 PC</b></span>
+    </div>
+  </div>
+</section>
+
+<!-- =================== CONTACT =================== -->
+<section class="section" style="padding-top: 0;" id="rfq">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- RFQ form -->
+      <form class="rfq" id="rfqForm" novalidate>
+        <span class="rfq-tl"></span>
+        <span class="rfq-tr"></span>
+        <div class="rfq__head">
+          <span>RFQ · ENQUIRY FORM</span>
+          <span class="pn">FORM · v2.4</span>
+        </div>
+        <div class="rfq__title">Tell us what you need.</div>
+        <div class="rfq__sub">THE MORE DETAIL · THE FASTER WE COME BACK WITH A USEFUL NUMBER</div>
+
+        <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+          <strong>Enquiry Received · Ack 24 HRS</strong>
+          You'll hear back from sales within one working day. For urgent requests, call +91 98305 66659.
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="company">Company <span class="req">*</span></label>
+            <input type="text" id="company" name="company" required autocomplete="organization" />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+91" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="category">Product Category <span class="req">*</span></label>
+          <select id="category" name="category" required>
+            <option value="">Select a category…</option>
+            <option>HSS Tools</option>
+            <option>Carbide Tipped Tools</option>
+            <option>Solid Carbide Tools</option>
+            <option>Milling Inserts</option>
+            <option>Turning Inserts</option>
+            <option>Tooling Accessories</option>
+            <option>Custom / Made-to-Print</option>
+            <option>Re-grinding Service</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="material">Material Being Machined</label>
+            <input type="text" id="material" name="material" placeholder="e.g. EN-19, SS 304, P20 @ 50 HRC" />
+          </div>
+          <div class="field">
+            <label for="quantity">Quantity / Batch</label>
+            <input type="text" id="quantity" name="quantity" placeholder="e.g. 25 pieces, monthly" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="details">Details / Specifications <span class="req">*</span></label>
+          <textarea id="details" name="details" required placeholder="Tool type, sizes, geometry, coating, machine, application. Attach a drawing via email if you have one — sales@micronengineeringindustries.in"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--lg btn--full">
+          Send Enquiry <span class="arr">→</span>
+        </button>
+
+        <p class="form-foot">DETAILS STAY WITH US · NO THIRD PARTIES · ACK WITHIN 1 WORKING DAY</p>
+      </form>
+
+      <!-- Contact info -->
+      <aside class="contact-info">
+        <div class="contact-block">
+          <h4>Call</h4>
+          <p>
+            <a href="tel:+919830566659">+91 98305 66659</a><br>
+            <a href="tel:+919830109511">+91 98301 09511</a>
+          </p>
+          <span class="note">MON – SAT · 10:00 – 18:00 IST</span>
+        </div>
+
+        <div class="contact-block">
+          <h4>Email</h4>
+          <p>
+            <a href="mailto:sales@micronengineeringindustries.in">sales@micronengineering<wbr>industries.in</a>
+          </p>
+          <span class="note">ATTACH DRAWINGS · SPECS · SAMPLE PHOTOS</span>
+        </div>
+
+        <div class="contact-block">
+          <h4>Factory</h4>
+          <address>
+            238 Roy Bahadur Road<br>
+            Kolkata 700053<br>
+            West Bengal, India
+          </address>
+          <a href="https://maps.google.com/?q=238+Roy+Bahadur+Road+Kolkata+700053" target="_blank" rel="noopener" class="map">Get directions →</a>
+        </div>
+
+        <div class="contact-block">
+          <h4>Sales Office</h4>
+          <address>
+            89 N.S. Road, 3rd Floor<br>
+            Kolkata 700001<br>
+            West Bengal, India
+          </address>
+          <a href="https://maps.google.com/?q=89+N.S.+Road+Kolkata+700001" target="_blank" rel="noopener" class="map">Get directions →</a>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">M</span>
+          <span class="brand-text">
+            <strong>Micron Engineering</strong>
+            <small>PRECISION CUTTING TOOLS · EST. 1985</small>
+          </span>
+        </a>
+        <p>Manufacturing precision cutting tools in Kolkata for over four decades.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Catalog</h4>
+        <ul>
+          <li><a href="products.html#hss">HSS Tools</a></li>
+          <li><a href="products.html#carbide-tipped">Carbide Tipped</a></li>
+          <li><a href="products.html#solid-carbide">Solid Carbide</a></li>
+          <li><a href="products.html#milling-inserts">Milling Inserts</a></li>
+          <li><a href="products.html#turning-inserts">Turning Inserts</a></li>
+          <li><a href="products.html#accessories">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <address class="foot-addr">
+          <strong>Factory</strong>
+          238 Roy Bahadur Road<br>
+          Kolkata 700053, WB
+        </address>
+        <address class="foot-addr">
+          <strong>Reach Us</strong>
+          <a href="tel:+919830566659">+91 98305 66659</a><br>
+          <a href="mailto:sales@micronengineeringindustries.in">sales@micronengineering<wbr>industries.in</a>
+        </address>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 1985–2026 MICRON ENGINEERING INDUSTRIES</span>
+      <span>MADE IN KOLKATA · GST &amp; MSME REG.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
